@@ -1,0 +1,4 @@
+baseURL = 'https://www.404p3rs0n.github.io/'
+languageCode = 'zh-CN'
+title = '404p3rs0n'
+theme = 'LoveIt'
