@@ -34,3 +34,7 @@ hugo server -t LoveIt --buildDrafts
 
 ![image-20230819222400361](https://21r000-image.oss-cn-shanghai.aliyuncs.com/2023/image-20230819222400361.png)
 
+上传到github仓库后，如下图进行Deploy之后Github-pages功能即可使用
+
+![image-20230820142540778](https://21r000-image.oss-cn-shanghai.aliyuncs.com/2023/image-20230820142540778.png)
+
