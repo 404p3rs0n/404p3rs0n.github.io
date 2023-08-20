@@ -10,6 +10,7 @@ def execute_commands(commands):
 
 commands = [
     "hugo",
+    "hugo --gc --minify --cleanDestinationDir",
     "git add .",
     'git commit -m "upload again"',
     "git push -u origin master",
