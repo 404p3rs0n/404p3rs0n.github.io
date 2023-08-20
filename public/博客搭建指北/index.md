@@ -1,8 +1,5 @@
----
-title: "博客搭建指北"
-date: 2023-08-19T17:13:00+08:00
-draft: false
----
+# 博客搭建指北
+
 
 brew一键安装hugo
 
@@ -36,3 +33,4 @@ hugo server -t LoveIt --buildDrafts
 在github中setting中找到Developer setting创建tokens，然后在push的时候输入密码时输入token就可以了
 
 ![image-20230819222400361](/Users/21r000/21r000Sec/404p3rs0n/content/posts/images/博客搭建指北/image-20230819222400361.png)
+
