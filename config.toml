@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://404p3rs0n.github.io"
 
 # theme
 # 主题
@@ -9,7 +9,7 @@ themesDir = "../.."
 
 # website title
 # 网站标题
-title = "LoveIt"
+title = "404p3rs0n"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
@@ -47,7 +47,7 @@ enableEmoji = true
 # Author config
 # 作者配置
 [author]
-  name = "xxxx"
+  name = "404p3rs0n"
   email = ""
   link = ""
 
