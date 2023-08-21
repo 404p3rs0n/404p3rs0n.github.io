@@ -48,7 +48,7 @@ hugo server -t LoveIt --buildDrafts
 git pull origin master
 ```
 
-
+![image-20230821200147884](https://21r000-image.oss-cn-shanghai.aliyuncs.com/2023/image-20230821200147884.png)
 
 ## 图床设置
 
@@ -63,4 +63,14 @@ git pull origin master
 配置成功之后即可上传图片至Github仓库
 
 > 这里还是建议使用图床对图片进行保存，不影响图片加载速度和图片安全性。
+
+## 一键上传
+
+> 苦于一次次执行git，才有了这个脚本，python执行即可
+
+```python
+python GitPush.py
+```
+
+![image-20230821200318143](https://21r000-image.oss-cn-shanghai.aliyuncs.com/2023/image-20230821200318143.png)
 
