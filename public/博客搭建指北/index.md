@@ -50,6 +50,10 @@ git pull origin master
 
 ![image-20230821200147884](https://21r000-image.oss-cn-shanghai.aliyuncs.com/2023/image-20230821200147884.png)
 
+在进行上传之后会自动执行Actions
+
+![image-20230821200505445](https://21r000-image.oss-cn-shanghai.aliyuncs.com/2023/image-20230821200505445.png)
+
 ## 图床设置
 
 在Github上新建一个Public属性的仓库用来存放图片
