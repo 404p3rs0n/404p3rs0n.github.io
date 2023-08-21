@@ -12,8 +12,8 @@ commands = [
     "hugo",
     "hugo --gc --minify --cleanDestinationDir",
     "git add .",
-    'git commit -m "upload again"',
-    "git push -u origin +master",
+    'git commit -m "Content updates"',
+    "git push -u origin master"
 ]
 
 if __name__ == '__main__':
