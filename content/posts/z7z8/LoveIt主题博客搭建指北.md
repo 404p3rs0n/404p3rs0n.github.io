@@ -1,5 +1,5 @@
 ---
-title: "博客搭建指北"
+title: "LoveIt主题博客搭建指北"
 date: 2023-08-19T17:13:00+08:00
 draft: false
 ---
