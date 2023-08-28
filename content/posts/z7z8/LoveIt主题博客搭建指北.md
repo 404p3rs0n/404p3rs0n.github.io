@@ -99,3 +99,22 @@ permalinks:
   posts = ":year/:month/:slug"
 ```
 
+## 图片表格居中
+
+根据自定义样式规则，在网站根目录下创建 `assets/css/_custom.css`，代码如下：
+
+```css
+.post-content img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-content table {
+  	/* 列宽自适应 */
+    width: fit-content; 
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+```
+
