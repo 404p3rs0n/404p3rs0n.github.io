@@ -101,7 +101,9 @@ permalinks:
 
 ## 图片表格居中
 
-根据自定义样式规则，在网站根目录下创建 `assets/css/_custom.css`，代码如下：
+> 根据自定义样式规则，在根目录 `assets/css/extended` 下的css文件都会被打包
+
+在网站根目录下创建 `assets/css/extended/custom.css`，代码如下：
 
 ```css
 .post-content img {
