@@ -32,7 +32,7 @@ hugo new site 404p3rs0n
 hugo server -t LoveIt --buildDrafts
 ```
 
-配置成功后，上传github仓库，如果出现鉴权失败
+配置成功后，将主题目录下exampleSite的配置文件复制到根目录下，将config.toml的内容复制到hugo.toml中，然后上传github仓库，如果出现鉴权失败
 
 > 注：创建的Github仓库需要以username.github.io格式命名，且仓库属性为Public。
 
@@ -97,26 +97,5 @@ slug: {{ substr (md5 (printf "%s%s" .Date (replace .TranslationBaseName "-" " " 
 ```toml
 permalinks:
   posts = ":year/:month/:slug"
-```
-
-## 图片表格居中
-
-> 根据自定义样式规则，在根目录 `assets/css/extended` 下的css文件都会被打包
-
-在网站根目录下创建 `assets/css/extended/custom.css`，代码如下：
-
-```css
-.post-content img {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.post-content table {
-  	/* 列宽自适应 */
-    width: fit-content; 
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-}
 ```
 
