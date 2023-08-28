@@ -78,3 +78,21 @@ python GitPush.py
 
 ![image-20230821200318143](https://21r000-image.oss-cn-shanghai.aliyuncs.com/2023/image-20230821200318143.png)
 
+## Posts实现md5加密
+
+> 苦于文章Title为中文时，Posts经url转换后会很长，于是自定义slug为Title的md5值
+
+修改文章模版 `archetypes/default.md`，在Front-matter中添加slug字段，新建文章时将文章创建时间和标题进行md5加密，从第0位取到第16位作为slug
+
+```bash
+slug: {{ substr (md5 (printf "%s%s" .Date (replace .TranslationBaseName "-" " " | title))) 0 16 }}
+```
+
+在网站配置 `hugo.toml` 中添加文章永久链接选项
+
+```toml
+permalinks:
+  posts = ":year/:month/:slug"
+```
+
+
